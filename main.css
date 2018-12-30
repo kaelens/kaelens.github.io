@@ -26,7 +26,8 @@ p {
 }
 .header {
   background-color: #FFFFFF;
-  font-color: #000000;  
+  font-color: #000000; 
+  font-family: "Courier New";
 }
 .first{
   background-color: #FFFFFF;
