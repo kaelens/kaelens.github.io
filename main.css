@@ -1,5 +1,5 @@
 body {
-  background-color: #F781F3;
+  background-color: #FFFFFF;
 }
 p {
   font-color: #000000;
@@ -8,4 +8,8 @@ div {
   background-color: #FF0080;
   font-color: #D8D8D8;
   margin: 2px;
+}
+img {
+  width: 5 px;
+  height: 5 px;
 }
