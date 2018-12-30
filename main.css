@@ -11,11 +11,15 @@ p {
   z-index: 10;
 }
 img {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   margin: 5px;
 }
-div {
+.instagram {
+  width: 20px;
+  height: 15px;
+}
+.header {
   background-color: #FFFFFF;
   font-color: #000000;
   width: 100%;
@@ -27,9 +31,11 @@ div {
   font-color: #000000;
   font-family: "Courier New";
   float: left;
+  padding: 10px;
 }
 .last{
   background-color: #FFFFFF;
   font-color: #000000;
   font-family: "Courier New";
+  padding: 10px;
 }
