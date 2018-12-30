@@ -1,3 +1,11 @@
 body {
-  color: #ffffff
+  color: #ffffff;
+}
+p {
+  font-color: #000000;
+}
+div {
+  color: #555555;
+  font-color: #777777;
+  margin: 2px;
 }
