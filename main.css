@@ -34,13 +34,13 @@ img {
   font-color: #000000;
   font-family: "Courier New";
   float: left;
-  padding: 10px;
+  padding: 20px 60px;
   vertical-align: center;
 }
 .last{
   background-color: #FFFFFF;
   font-color: #000000;
   font-family: "Courier New";
-  padding: 10px;
+  padding: 20px 80px;
   vertical-align: center;
 }
