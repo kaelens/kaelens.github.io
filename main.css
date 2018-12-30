@@ -4,10 +4,10 @@ body {
 p {
   font-color: #000000;
 }
-div {
-  background-color: #FFFFFF;
-  font-color: #D8D8D8;
-  margin: 2px;
+.fixed {
+  float: right;
+  position: fixed;
+  z-index: 10;
 }
 img {
   width: 10px;
