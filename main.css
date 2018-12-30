@@ -10,6 +10,7 @@ div {
   margin: 2px;
 }
 img {
-  width: 5 px;
-  height: 5 px;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
 }
