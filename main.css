@@ -62,3 +62,35 @@ h2:hover:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+.project {
+  background-color: black;
+  
+}
+.instagram {
+  position: relative;
+  top: 5%;
+  right: 5%;
+  width: 10px;
+  height: 10px;
+}
+.twitter {
+  position: absolute;
+  top: 7%;
+  right: 5%;
+  width: 20px;
+  height: 20px;
+}
+.linkedin {
+  position: absolute;
+  top: 9%;
+  right: 5%;
+  width: 20px;
+  height: 20px;
+}
+.github {
+  position: absolute;
+  top: 11%;
+  right: 5%;
+  width: 20px;
+  height: 20px;
+}
