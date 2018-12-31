@@ -78,6 +78,7 @@ h2:hover > .project {
     left: 40%;
     right:40%;}
 }
+/*
 @-moz-keyframes grow {
   0% {
     -moz-transform: scale(0);
@@ -115,6 +116,7 @@ h2:hover > .project {
     left: 40%;
     right:40%;}
 }
+*/
 /* @ keyframes grow {
   from {
     transform: scale(0);
