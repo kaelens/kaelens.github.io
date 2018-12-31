@@ -49,13 +49,14 @@ h2:hover {
   color: grey;
 }
 .project {
-  position: relative;
+  position: absolute;
   background: black;
   padding: 5px;
   padding-left: 7px;
   padding-right: 7px;
   text-align: center;
-  width: 30%;
+  left: 40%;
+  right:40%;
 }
 #social-sidebar {
   position: absolute;
