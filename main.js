@@ -1,3 +1,4 @@
+<script type="text/javascript">
 $(function() {  
   $('.btn-6')
     .on('mouseenter', function(e) {
@@ -14,7 +15,7 @@ $(function() {
     });
   $('[href=#]').click(function(){return false});
 });
-
+</script>
 
 //My failed attempt at something cool
 // Wrap every letter in a span
