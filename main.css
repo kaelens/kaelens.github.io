@@ -63,7 +63,10 @@ h2:hover:before {
   transform: scaleX(1);
 }
 .project {
-  background-color: black;
+  background: black;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
   
 }
 .instagram {
