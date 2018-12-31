@@ -28,7 +28,7 @@ a {
   right: 0px;
   font-family: FontAwesome;
   margin-bottom: 60px;
-  font-size: 60px;
+  font-size: 45px;
   color: white;
   
 }
@@ -49,6 +49,8 @@ a {
 }
 
 #social {
+  font-size: 45px;
+  margin-bottom: 30px;
   position: absolute;
   right: 0px;
   top: 50%;
