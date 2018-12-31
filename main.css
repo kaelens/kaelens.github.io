@@ -1,3 +1,9 @@
+.image_off, #container:hover .image_on{
+   display:none
+}
+.image_on, #container:hover .image_off{
+   display:block
+}
 .container {
   position: relative;
   text-align: center;
