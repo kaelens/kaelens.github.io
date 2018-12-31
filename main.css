@@ -58,7 +58,11 @@ h2:hover {
   text-align: center;
   left: 40%;
   right:40%;
+}
+h2:hover > .project {
+  display: block;
   animation: grow 500ms ease-in-out 0s 1 normal forwards;
+
 }
 @ keyframes grow {
   from {
