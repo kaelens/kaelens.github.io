@@ -1,14 +1,27 @@
-.image_off, #container:hover .image_on{
-   display:none;
-   -webkit-animation: showNav 250ms ease-in-out both;
+.banner {
+   animation:fading 10s infinite;
 }
-.image_on, #container:hover .image_off{
-   display:block;
-   -webkit-animation: showNav 250ms ease-in-out both;
+@keyframes fading {
+   0% {
+      opacity:0;
+   }
+   50% {
+      opacity:1;
+   }
+   100% {
+      opacity:0
+   }
 }
-@keyframes header {
-  from {opacity: 0;}
-  to {opacity: 1;}
+.banner-opacity {
+   animation:opac 0.8s;
+}
+@keyframes opac {
+   from {
+      opacity:0;
+   } 
+   to {
+      opacity:1;
+   }
 }
 .container {
   position: relative;
@@ -16,7 +29,6 @@
   color: white;
   opacity: 0.80;
 }
-
 #last {
   position: absolute;
   top: 60%;
