@@ -58,7 +58,7 @@ h2:hover {
   left: 40%;
   right:40%;
 }
-#social-sidebar {
+#social {
   position: absolute;
   right: 0;
   text-align: center;
@@ -66,23 +66,23 @@ h2:hover {
   transform: translate(-50%, -50%);
   z-index: 9;
   padding-right: 54px; }
-  #social-sidebar li {
+  #social li {
     display: block;
     font-size: 24px; }
-    #social-sidebar li a {
-      color: #333;
-      transition: all 0.5s;
-      -webkit-transition: all 0.5s;
-      -ms-transition: all 0.5s;
-      -moz-transition: all 0.5s;
-      -o-transition: all 0.5s; }
-      #social-sidebar li a:hover {
-        color: #fef200;
-        transition: all 0.5s;
-        -webkit-transition: all 0.5s;
-        -ms-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -o-transition: all 0.5s; }
+  #social li a {
+    color: #333;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s; }
+  #social-sidebar li a:hover {
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s; }
 }
 /*
 a.icon-github {
