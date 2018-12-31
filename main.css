@@ -42,19 +42,19 @@ a {
   padding-left: 7px;
   padding-right: 7px;
 }
-h2 {
-  font-family: "Courier New";
-  font-size: 30px;
-  text-align: center;
-  position: relative;
-  color: black;
-  text-decoration: none;
-}
+
 $btn-width: 250px !default;
-$btn-height: 80px !default;
+$btn-height: 70px !default;
 $btn-full: $btn-height+$btn-width !default;
 $btn-half: $btn-full/2 !default;
 $bg-color: #eeeeee !default;
+
+ *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+  }
 
 *:before,
 *:after {
@@ -65,12 +65,12 @@ $bg-color: #eeeeee !default;
 h2 {
   text-decoration: none;
   line-height: $btn-height;
-  color: grey;
+  font-family: "Courier New"
 }
 
 
 [class^="btn-"] {
-  position: relative;
+  position: absolute;
   display: block;
   overflow: hidden;
   @include size(100%, $btn-height);
@@ -85,9 +85,6 @@ h2 {
   $btn-color-dark: shade($btn-color, 40%);
   color: tint($btn-color);
   position: absolute;
-  padding: 5px;
-  padding-left: 7px;
-  padding-right: 7px;
   text-align: center;
   left: 40%;
   right:40%;
@@ -150,19 +147,19 @@ h2:hover {
   top: 40%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  padding-right: 20px; }
+  padding-right: 10px; }
   #social li {
     display: block;
     font-size: 60px; }
   #social li a {
-    color: #333;
+    color: white;
     transition: all 0.5s;
     -webkit-transition: all 0.5s
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s; }
   #social li a:hover {
-    color: gold;
+    color: plum;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
