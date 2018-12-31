@@ -10,7 +10,7 @@ I have a lot in mind for this project and I just hope it turns out the way I pla
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 		
-		<script src="kaelens.github.io/main.js"></script>
+		<!-- <script src="kaelens.github.io/main.js"></script> -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		
 		<!-- My main CSS file -->
@@ -41,6 +41,29 @@ I honestly do not know what all of these mean yet
         	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 		
 -->
+<script>
+	$(function() {
+  	$(".btn-9")
+    	.on("mouseenter", function(e) {
+    	var parentOffset = $(this).offset(),
+        	relX = e.pageX - parentOffset.left,
+        	relY = e.pageY - parentOffset.top;
+    	$(this)
+      	.find("span")
+      	.css({ top: relY, left: relX });
+  	})
+    	.on("mouseout", function(e) {
+    	var parentOffset = $(this).offset(),
+        	relX = e.pageX - parentOffset.left,
+        	relY = e.pageY - parentOffset.top;
+    	$(this)
+      	.find("span")
+      	.css({ top: relY, left: relX });
+  	});
+  	$("[href=#]").click(function() {
+    	return false;
+  	});
+	});
 	</head>
 	<body>
 
