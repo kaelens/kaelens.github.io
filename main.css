@@ -24,8 +24,9 @@ Thank you!
   padding-left: 7px;
   padding-right: 7px;
 }
-
-
+a {
+  font-family: FontAwesome;
+}
 .first {
   position: absolute;
   top: 40%;
@@ -45,6 +46,87 @@ h2 {
   position: relative;
   color: black;
   text-decoration: none;
+}
+$btn-width: 250px !default;
+$btn-height: 80px !default;
+$btn-full: $btn-height+$btn-width !default;
+$btn-half: $btn-full/2 !default;
+$bg-color: #eeeeee !default;
+
+*:before,
+*:after {
+  z-index: -1;
+}
+
+
+a {
+  text-decoration: none;
+  line-height: $btn-height;
+  color: grey;
+}
+
+
+[class^="btn-"] {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  @include size(100%, $btn-height);
+  max-width: $btn-width;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+}
+
+.btn-9 {
+  $btn-color: random-color($max:200);
+  $btn-color-dark: shade($btn-color, 40%);
+  color: tint($btn-color);
+  position: absolute;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: center;
+  left: 40%;
+  right:40%;
+  
+  &:before,
+  &:after,
+  span:before,
+  span:after {
+    content: '';
+    @include absolute(0,null,null,0);
+    @include size(100%, 0);
+    background-color: rgba($btn-color-dark, 0.25);
+    transition: 0.4s ease-in-out;
+  }
+  
+  &:after,
+  span:before {
+    top: auto;
+    bottom: 0;
+  }
+  
+  span:before,
+  span:after {
+    transition-delay: 0.4s;
+  }
+  
+  &:hover {
+    color: tint($btn-color, 75%);
+    
+    &:before,
+    &:after,
+    span:before,
+    span:after {
+      height: $btn-height;
+    }
+  }
+  
+  &:active {
+    background-color: $btn-color;
+  }
+}
+
 /*
 h2:hover {
   -webkit-animation: fade 500ms ease-in-out 1 normal forwards;
@@ -56,52 +138,6 @@ h2:hover {
   100% {
     color: white
   }
-}
-*/
- .project {
-   animation: down-bump 0.4s ease;
-   background: linear-gradient(
-     white, white 50%, #333 50%, #333
-  );
-   transition: all 0.2s ease;
-   padding: 5px;
-   padding-left: 7px;
-   padding-right: 7px;
-   text-align: center;
-   left: 40%;
-   right:40%;
-   border: 3px solid gray;
-}
-.project:hover {
-   background-position: 100% 200%;
-   animation: up-bump 0.4s ease;
-
-}
-.project:hover h2 {
-   color: white;
-}
-@-webkit-keyframes up-bump {
-  0% { padding-top: 2em; }
-  50% { padding-top: 1.5em; }
-  100% { padding-top: 2em; }
-}
-@-webkit-keyframes down-bump {
-  0% { padding-top: 2em; }
-  50% { padding-top: 2.5em; }
-  100% { padding-top: 2em; }
-}
-  /*
-.project {
-  display: none;
-  position: absolute;
-  background: black;
-  padding: 5px;
-  padding-left: 7px;
-  padding-right: 7px;
-  text-align: center;
-  left: 40%;
-  right:40%;
-  border: 3px solid gray;
 }
 */
 #social {
