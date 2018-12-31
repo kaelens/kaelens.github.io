@@ -1,42 +1,26 @@
-body {
-  background-color: #FFFFFF;
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
-p {
-  font-color: #000000;
-  font-family: "Courier New";
-}
-.fixed {
-  float: right;
-  position: absolute;
-  z-index: 10;
-    width: 20px;
-  height: 20px;
-  margin: 5px;
-}
-.3d {
-  width: 100%;
-  height: 50px;
-  opacity: 0.5;
-}
-.instagram {
-  width: 10px;
-  height: 10px;
-}
-.header {
 
-}
-.first{
-  font-color: #000000;
+.last {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  background: white;
+  color: black;
+  padding: 3px;
   font-family: "Courier New";
+}
+
+
+.first {
   position: absolute;
   top: 40%;
   left: 7%;
-}
-.last{
-  font-color: #000000;
+  background: white;
+  color: black;
+  padding: 3px;
   font-family: "Courier New";
-  padding: 20px 80px;
-  top: 50%;
-  left: 8%;
 }
-
