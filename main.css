@@ -55,9 +55,6 @@ h2 {
   animation: up-bump 0.4s ease;
 }
 .box:hover h2 {
-  color: #48ad26;
-}
-.box:hover h2 span {
   color: white;
 }
 @keyframes up-bump {
