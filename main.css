@@ -152,14 +152,14 @@ h2:hover {
     display: block;
     font-size: 60px; }
   #social li a {
-    color: white;
+    font-color: white;
     transition: all 0.5s;
     -webkit-transition: all 0.5s
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s; }
   #social li a:hover {
-    color: plum;
+    font-color: plum;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
