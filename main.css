@@ -56,6 +56,17 @@ h2:hover {
     color: white
   }
 }
+.project {
+  display: none;
+  position: absolute;
+  background: black;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: center;
+  left: 40%;
+  right:40%;
+}
 h2:hover > .project {
   display: block;
   -webkit-animation: grow 500ms ease-in-out 0s 1 normal forwards;
@@ -68,15 +79,7 @@ h2:hover > .project {
 
   100% {
     -webkit-transform: scale(1);
-    opacity: 1; 
-    position: absolute;
-    background: black;
-    padding: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    text-align: center;
-    left: 40%;
-    right:40%;}
+    opacity: 1; }
 }
 /*
 @-moz-keyframes grow {
