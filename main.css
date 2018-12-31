@@ -144,27 +144,31 @@ h2:hover {
   position: absolute;
   right: 0;
   text-align: center;
-  top: 40%;
+  top: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  padding-right: 10px; }
+  padding-right: 5px; 
+  padding-bottom: 5px;
+}
   #social li {
     display: block;
-    font-size: 60px; }
+    font-size: 15px; 
+}
   #social li a {
     font-color: white;
     transition: all 0.5s;
     -webkit-transition: all 0.5s
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
-    -o-transition: all 0.5s; }
+    -o-transition: all 0.5s; 
+}
   #social li a:hover {
     font-color: plum;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
-    -o-transition: all 0.5s; }
+    -o-transition: all 0.5s; 
 }
 
 h4 {
