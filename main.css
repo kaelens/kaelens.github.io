@@ -19,10 +19,11 @@
 }
 
 a {
+  right: 0px;
   font-family: FontAwesome;
   margin-bottom: 30px;
   font-size: 60px;
-  color: black;
+  color: white;
   
 }
 .fa-twitter {
@@ -43,13 +44,11 @@ a {
 
 #social {
   position: absolute;
-  right: 0;
+  right: 0px;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 10;
-  padding-right: 5px;
-  padding-bottom: 5px;
 }
 
 #social li {
@@ -58,7 +57,7 @@ a {
 }
 
 #social li a {
-  color: black;
+  color: white;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -96,7 +95,7 @@ h2 {
 }
 
 .btn-9 {
-  color: plum;
+  color: black;
   position: absolute;
   text-align: center;
   left: 40%;
