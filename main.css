@@ -4,42 +4,6 @@ I do not know all of the possibilities that are in store with coding, so there w
 Thank you!
 */
 
-.box {
-  background: linear-gradient(
-     white, white 50%, #333 50%, #333
-  );
-  transition: all 0.2s ease;
-}
-.box:hover {
-  background-position: 100% 100%;
-}
-.box:hover h2 {
-  color: #48ad26;
-}
-.box:hover h2 span {
-  color: white;
-}
-.box:hover h3 {
-  color: #999;
-}
-@keyframes up-bump {
-  0% { padding-top: 2em; }
-  50% { padding-top: 1.5em; }
-  100% { padding-top: 2em; }
-}
-@keyframes down-bump {
-  0% { padding-top: 2em; }
-  50% { padding-top: 2.5em; }
-  100% { padding-top: 2em; }
-}
-.box {
-  animation: down-bump 0.4s ease;
-}
-.box:hover {
-  animation: up-bump 0.4s ease;
-}
-
-/* Im going to see if this code actually works
 
 .container {
   position: relative;
@@ -81,7 +45,7 @@ h2 {
   position: relative;
   color: black;
   text-decoration: none;
-
+/*
 h2:hover {
   -webkit-animation: fade 500ms ease-in-out 1 normal forwards;
 }
@@ -93,8 +57,42 @@ h2:hover {
     color: white
   }
 }
+*/
+ .project {
+   animation: down-bump 0.4s ease;
+   background: linear-gradient(
+     white, white 50%, #333 50%, #333
+  );
+   transition: all 0.2s ease;
+   padding: 5px;
+   padding-left: 7px;
+   padding-right: 7px;
+   text-align: center;
+   left: 40%;
+   right:40%;
+   border: 3px solid gray;
+}
+.project:hover {
+   background-position: 100% 200%;
+   animation: up-bump 0.4s ease;
 
+}
+.project:hover h2 {
+   color: white;
+}
+@-webkit-keyframes up-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 1.5em; }
+  100% { padding-top: 2em; }
+}
+@-webkit-keyframes down-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 2.5em; }
+  100% { padding-top: 2em; }
+}
+  /*
 .project {
+  display: none;
   position: absolute;
   background: black;
   padding: 5px;
@@ -103,8 +101,9 @@ h2:hover {
   text-align: center;
   left: 40%;
   right:40%;
+  border: 3px solid gray;
 }
-
+*/
 #social {
   position: absolute;
   right: 0;
@@ -132,4 +131,4 @@ h2:hover {
     -o-transition: all 0.5s; }
 }
 
-*/
+
