@@ -53,12 +53,12 @@ h2:hover {
 }
 #social-sidebar {
   position: absolute;
-  left: 0;
+  right: 0;
   text-align: center;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 9;
-  padding-left: 54px; }
+  padding-right: 54px; }
   #social-sidebar li {
     display: block;
     font-size: 24px; }
