@@ -20,11 +20,14 @@
 
 a {
   font-family: FontAwesome;
-  margin: 20px;
+  margin-bottom: 30px;
   font-size: 60px;
   color: black;
+  
 }
-
+.fa-twitter {
+  right: 3px;
+}
 #first {
   position: absolute;
   top: 40%;
