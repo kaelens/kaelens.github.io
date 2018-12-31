@@ -69,6 +69,12 @@ h2:hover:before {
   padding-right: 7px;
   align: center;
 }
+.social {
+  float: right;
+}
+.social:hover {
+  color: white;
+}
 .instagram {
   position: absolute;
   top: 5%;
