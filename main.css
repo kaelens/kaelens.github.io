@@ -47,7 +47,7 @@ $btn-width: 250px !default;
 $btn-height: 70px !default;
 $btn-full: $btn-height+$btn-width !default;
 $btn-half: $btn-full/2 !default;
-$bg-color: #eeeeee !default;
+$bg-color: plum !default;
 
  *,
   *:before,
@@ -126,6 +126,7 @@ h2 {
     background-color: $btn-color;
   }
 }
+
 
 /*
 h2:hover {
