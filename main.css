@@ -147,13 +147,13 @@ h2:hover {
   position: absolute;
   right: 0;
   text-align: center;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   z-index: 10;
   padding-right: 20px; }
   #social li {
     display: block;
-    font-size: 24px; }
+    font-size: 60px; }
   #social li a {
     color: #333;
     transition: all 0.5s;
@@ -161,7 +161,7 @@ h2:hover {
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s; }
-  #social-sidebar li a:hover {
+  #social li a:hover {
     color: gold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
