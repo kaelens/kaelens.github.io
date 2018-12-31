@@ -67,7 +67,7 @@ h2:hover:before {
   padding: 5px;
   padding-left: 7px;
   padding-right: 7px;
-  
+  align: center;
 }
 .instagram {
   position: absolute;
