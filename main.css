@@ -26,6 +26,9 @@ Thank you!
 }
 a {
   font-family: FontAwesome;
+  margin: 10px;
+  font-size: 15px;
+  color: white;
 }
 .first {
   position: absolute;
@@ -59,7 +62,7 @@ $bg-color: #eeeeee !default;
 }
 
 
-a {
+h2 {
   text-decoration: none;
   line-height: $btn-height;
   color: grey;
@@ -146,8 +149,8 @@ h2:hover {
   text-align: center;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9;
-  padding-right: 54px; }
+  z-index: 10;
+  padding-right: 20px; }
   #social li {
     display: block;
     font-size: 24px; }
@@ -159,7 +162,7 @@ h2:hover {
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s; }
   #social-sidebar li a:hover {
-    color: white;
+    color: gold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
