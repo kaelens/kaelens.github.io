@@ -46,9 +46,16 @@ h2 {
   text-decoration: none;
 }
 h2:hover {
-  color: white;
+  -webkit-animation: fade 500ms ease-in-out 1 normal forwards;
 }
-
+@-webkit-keyframes fade {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white
+  }
+}
 h2:hover > .project {
   display: block;
   -webkit-animation: grow 500ms ease-in-out 0s 1 normal forwards;
