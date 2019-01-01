@@ -92,7 +92,10 @@ h2 {
   text-transform: uppercase;
   border: 1px solid currentColor;
 }
-
+button {
+  padding: 30px;
+  margin: 30px;
+}
 .btn-9 {
   color: black;
   position: absolute;
