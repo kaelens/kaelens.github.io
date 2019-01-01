@@ -40,8 +40,6 @@ a {
 }
 
 #social {
-  font-size: 45px;
-  margin-bottom: 30px;
   position: absolute;
   right: 0px;
   top: 50%;
@@ -51,6 +49,8 @@ a {
 }
 
 #social li {
+  font-size: 45px;
+  margin-bottom: 30px;
   display: block;
   font-size: 15px;
 }
