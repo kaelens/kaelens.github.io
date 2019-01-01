@@ -13,50 +13,18 @@
 	</head>
 	<body>
 	<div class="container">
-<div class="pics fade">
+	  <div class="pics fade"><img src="kaelens.github.io/IMG_3613.jpg" alt="flutes" style="width:100%;></div>
 
-		<img src="kaelens.github.io/IMG_3613.jpg" alt="flutes" style="width:100%;>
+	  <div class="pics fade"><img src="kaelens.github.io/IMG_3167.jpg" alt="kinsgorls" style="width:100%;"></div>
 
-</div>
+	  <div class="pics fade"><img src="kaelens.github.io/IMG_3624.jpg" alt="trumpet" style="width:100%;"></div>
 
-<div class="pics fade">
-
-		<img src="kaelens.github.io/IMG_3167.JPG" alt="kinsgorls" style="width:100%;">
-
-</div>
-
-<div class="pics fade">
-
-		<img src="kaelens.github.io/IMG_3624.JPG" alt="trumpet" style="width:100%;">
-
-</div>
-
-</div>
-<br>
-
-
-
-	
+	</div>
 	
 	  <span class="dot"></span> 
 	  <span class="dot"></span> 
 	  <span class="dot"></span>
-											   <script>
-	var slideIndex = 0;
-	showSlides();
-
-	function showSlides() {
-	  var i;
-	  var slides = document.getElementsByClassName("pics");
-	  for (i = 0; i < slides.length; i++) {
-	    slides[i].style.display = "none";  
-	  }
-	  slideIndex++;
-	  if (slideIndex > slides.length) {slideIndex = 1}    
-	  slides[slideIndex-1].style.display = "block";  
-	  setTimeout(showSlides, 4000); 
-	}
-	</script>
+	
 
       		<div id="first">Kaelen</div>
       		<div id="last">Saythongkham</div>
@@ -82,6 +50,21 @@
 		<h2 class="btn-9 project"><span>Projects</span></h2>
 
 		
-		
+		<script>
+	var slideIndex = 0;
+	showPics();
+
+	function showPics() {
+	  var i;
+	  var slides = document.getElementsByClassName("pics");
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  slides[slideIndex-1].style.display = "block";  
+	  setTimeout(showSlides, 4000); 
+	}
+	</script>
 	</body>
 </html>
