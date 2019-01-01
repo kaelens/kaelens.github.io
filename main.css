@@ -118,3 +118,13 @@ h2 {
   background-color: plum;
 }
 
+#monarch {
+  position: absolute;
+  text-align: left;
+}
+#monarchpic {
+  float: right;
+  opacity: .8;
+  width: 50%;
+  height: 300px;
+}
