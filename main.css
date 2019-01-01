@@ -121,15 +121,17 @@ h2 {
 #monarch {
   position: absolute;
 }
-#monarchpic {
-  float: right;
-  opacity: .8;
-  width: 50%;
-  height: 300px;
-}
 #announce {
   text-align: left;
   font-family: "Courier New";
   left: 30px;
   margin: 80px;
 }
+#monarchpic {
+  position: relative;
+  float: right;
+  opacity: .8;
+  width: 50%;
+  height: 300px;
+}
+
