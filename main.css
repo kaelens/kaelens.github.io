@@ -95,6 +95,7 @@ h2 {
 button {
   padding: 30px;
   margin: 30px;
+  position: relative;
 }
 .btn-9 {
   color: black;
@@ -123,12 +124,24 @@ button {
 
 #monarch {
   position: absolute;
+  margin: 100px 80px;
+  border: 3px solid grey;
+  padding: 0px;
+  height: 300px;
+  padding-bottom: 90px;
+}
+#announce:hover .MEV{
+  font-style: italic;
+  color: purple;
+  font-size: 30px;
 }
 #announce {
   text-align: left;
   font-family: "Courier New";
   left: 30px;
   margin: 80px;
+  width: 40%;
+  font-size: 30px;
 }
 #monarchpic {
   position: relative;
@@ -137,4 +150,3 @@ button {
   width: 50%;
   height: 300px;
 }
-
