@@ -15,9 +15,6 @@
     bottom: 10px; 
 }
 .container {
-  position: relative;
-  text-align: center;
-  color: white;
   opacity: 0.80;
 }
 #last {
