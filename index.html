@@ -9,16 +9,24 @@
 		<link rel="stylesheet" href="kaelens.github.io/main.css" type="text/css">
 
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 		
 	</head>
 	<body>
 	<div class="container">
-	  <div class="pics fade"><img src="kaelens.github.io/IMG_3613.jpg" alt="flutes" style="width:100%;></div>
-
-	  <div class="pics fade"><img src="kaelens.github.io/IMG_3167.jpg" alt="kinsgorls" style="width:100%;"></div>
-
-	  <div class="pics fade"><img src="kaelens.github.io/IMG_3624.jpg" alt="trumpet" style="width:100%;"></div>
-
+	<div id="slideshow">
+   	<div>
+     <img src="kaelens.github.io/IMG_3613.jpg" alt="flutes" style="width:100%;>
+	</div>
+   	<div>
+     <img src="kaelens.github.io/IMG_3167.jpg" alt="kinsgorls" style="width:100%;">
+   	</div>
+   	<div>
+     <img src="kaelens.github.io/IMG_3624.jpg" alt="trumpet" style="width:100%;">
+   	</div>
 	</div>
 
       		<div id="first">Kaelen</div>
@@ -46,20 +54,16 @@
 
 		
 		<script>
-	var slideIndex = 0;
-	showPics();
+	$("#slideshow > div:gt(0)").hide();
 
-	function showPics() {
-	  var i;
-	  var slides = document.getElementsByClassName("pics");
-	  for (i = 0; i < slides.length; i++) {
-	    slides[i].style.display = "none";  
-	  }
-	  slideIndex++;
-	  if (slideIndex > slides.length) {slideIndex = 1}    
-	  slides[slideIndex-1].style.display = "block";  
-	  setTimeout(showSlides, 4000); 
-	}
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
 	</script>
 	</body>
 </html>
