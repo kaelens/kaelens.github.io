@@ -1,4 +1,7 @@
-.fade {
+* {box-sizing: border-box;}
+.pics {display: none;}
+
+.container {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 4.5s;
   animation-name: fade;
