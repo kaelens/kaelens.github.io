@@ -5,22 +5,11 @@
    0% {
       opacity:0;
    }
-   50% {
+   25%, 75% {
       opacity:1;
    }
    100% {
       opacity:0
-   }
-}
-.banner-opacity {
-   animation:opac 0.8s;
-}
-@keyframes opac {
-   from {
-      opacity:0;
-   } 
-   to {
-      opacity:1;
    }
 }
 .container {
