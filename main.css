@@ -1,5 +1,5 @@
 .banner {
-   animation:fading 5s infinite;
+   animation:fading 8s infinite;
 }
 @keyframes fading {
    0% {
