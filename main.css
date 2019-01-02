@@ -1,7 +1,9 @@
 
 .container {
   opacity: 0.80;
-
+  width: 85%;
+  right: 0px;
+  top: 30px;
 }
 #last #first {
   $btn-color: random-color($max:200);
