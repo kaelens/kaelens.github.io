@@ -131,7 +131,8 @@ h2 {
   border: 1px solid currentColor;
 }
 button {
-  margin: 30px;
+  position: absolute;
+  top: 100%;
 }
 .btn-9 {
   color: black;
