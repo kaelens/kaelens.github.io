@@ -13,16 +13,6 @@
   height: auto;
   width: 100%;
 }
-.container ul { 
-  padding: 0px;
-  margin: 0px;
-  list-style:none;
-  width: 300%;
-  height: 150%;
-    }  
-.container li { 
-  float: left; 
-}
 
 #project {
   margin-top: 500px;
