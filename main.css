@@ -1,5 +1,8 @@
 .container {
-  margin-bottom: 20px;
+  text-decoration: none;
+}
+#project {
+  margin-top: 100px;
 }
 .banner {
   position: absolute;
@@ -8,7 +11,8 @@
   right: 0px;
   top: 10px;
   float: right;
-
+  border: 3px solid gray;
+  margin-bottom: 60px;
 }
 /*
 #last #first {
@@ -21,7 +25,6 @@
     content: '';
     @include absolute(0,0,0,0);
   }
-
   &:before {
     right: -50px;
     border-right: 50px solid transparent;
@@ -35,10 +38,8 @@
     border-top: $btn-height solid $btn-color-dark;
     transform: translateX(100%);
   }
-
   &:hover {
     color: tint($btn-color, 75%);
-
     &:before { transform: translateX(-49%); }
     &:after { transform: translateX(49%); }
   }
@@ -133,6 +134,7 @@ button {
   margin: 30px;
 }
 .btn-9 {
+  position: static;
   color: black;
   position: static;
   text-align: center;
