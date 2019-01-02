@@ -16,8 +16,9 @@
 		
 	</head>
 	<body>
-	  <div class="container">
-		<ul>
+	  <div>
+	    <div class="container">
+		  <ul>
 			<li>
 			<img class="banner" src="kaelens.github.io/IMG_3613.jpg" alt="flutes" >
 			</li>
@@ -27,14 +28,15 @@
 			<li>
      			<img class="banner" src="kaelens.github.io/IMG_3624.JPG" alt="trumpet" >
    			</li>
-		</ul>
+		  </ul>
+	    </div>
 	<script>
-		$(function(){
+	$(function(){
 	   setInterval(function(){
-	      $(".slideshow1 ul").animate({marginLeft:-350},800,function(){
+	      $(".container ul").animate({marginLeft:-750},800,function(){
 		 $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
 	      })
-	   }, 3500);
+	   }, 4000);
 	});
 	</script>
 			<div id="first">Kaelen</div>
