@@ -1,10 +1,13 @@
 
-.container {
+.banner {
   opacity: 0.80;
   width: 85%;
   right: 0px;
-  top: 30px;
+  top: 60px;
+  float: right;
+  left: 90px;
 }
+/*
 #last #first {
   $btn-color: random-color($max:200);
   $btn-color-dark: shade($btn-color, 40%);
@@ -37,6 +40,7 @@
     &:after { transform: translateX(49%); }
   }
 }
+*/
 #last {
   position: absolute;
   top: 45%;
