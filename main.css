@@ -3,6 +3,38 @@
   opacity: 0.80;
 
 }
+#last #first {
+  $btn-color: random-color($max:200);
+  $btn-color-dark: shade($btn-color, 40%);
+  color: tint($btn-color);
+  
+  &:before,
+  &:after {
+    content: '';
+    @include absolute(0,0,0,0);
+  }
+
+  &:before {
+    right: -50px;
+    border-right: 50px solid transparent;
+    border-bottom: $btn-height solid $btn-color-dark;
+    transform: translateX(-100%);
+  }
+  
+  &:after {
+    left: -50px;
+    border-left: 50px solid transparent;
+    border-top: $btn-height solid $btn-color-dark;
+    transform: translateX(100%);
+  }
+
+  &:hover {
+    color: tint($btn-color, 75%);
+
+    &:before { transform: translateX(-49%); }
+    &:after { transform: translateX(49%); }
+  }
+}
 #last {
   position: absolute;
   top: 45%;
