@@ -1,21 +1,19 @@
-.container {  
+#slideshow > .fade { 
+  position: absolute;  
   overflow: hidden;
   position: absolute;
   width: 85%;
   height: 500px;
   right: 0px;
   top: 10px;
-  float: right;
-  background-size: 85% auto;
     }  
 .banner {
   max-width:100%;
-  height: auto;
   width: 100%;
 }
 
 #project {
-  margin-top: 500px;
+  margin-top: 400px;
 }
 
 /*
@@ -202,3 +200,6 @@ button {
     padding: 5px;
   }
 }
+
+
+
