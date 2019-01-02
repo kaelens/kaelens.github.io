@@ -1,5 +1,6 @@
 .container {
   text-decoration: none;
+  position: static;
 }
 #project {
   margin-top: 100px;
