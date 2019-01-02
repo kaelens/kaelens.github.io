@@ -1,7 +1,10 @@
-$(function(){
-	   setInterval(function(){
-	      $(".container ul").animate({marginLeft:-850},1500,function(){
-		 $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
-	      })
-	   }, 4000);
-	});
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > .fade:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(2000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
