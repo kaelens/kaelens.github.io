@@ -2,7 +2,13 @@
   width: 750px;  
   height: 300px;
   overflow: hidden;
-}  
+  position: absolute;
+  width: 85%;
+  right: 0px;
+  top: 10px;
+  float: right;
+  margin-bottom: 60px;
+}
 .container ul {  
   width: 400%;  
   height: 300px;
@@ -14,14 +20,7 @@
 #project {
   margin-top: 500px;
 }
-.banner {
-  position: absolute;
-  width: 85%;
-  right: 0px;
-  top: 10px;
-  float: right;
-  margin-bottom: 60px;
-}
+
 /*
 #last #first {
   $btn-color: random-color($max:200);
