@@ -12,6 +12,7 @@
   top: 10px;
   float: right;
   margin-bottom: 60px;
+  overflow: hidden;
 }
 /*
 #last #first {
