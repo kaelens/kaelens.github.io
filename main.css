@@ -1,4 +1,6 @@
-
+.container {
+  text-decoration: none;
+}
 .banner {
   position: relative;
   opacity: 0.80;
