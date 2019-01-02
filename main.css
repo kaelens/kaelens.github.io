@@ -1,9 +1,10 @@
 .container {
   text-decoration: none;
-  position: static;
+  position: relative;
 }
 #project {
   margin-top: 100px;
+  position: relative;
 }
 .banner {
   position: absolute;
@@ -132,9 +133,7 @@ h2 {
 }
 button {
   position: relative;
-  top: 200px;
-  display: inline-block;
-  top: 100%;
+  bottom: -100px;
 }
 .btn-9 {
   color: black;
