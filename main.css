@@ -185,3 +185,18 @@ button {
   width: 50%;
   height: 300px;
 }
+.MEV {
+  
+  -webkit-animation: pan 3s linear forward
+}
+@keyframes pan {
+  0% {
+    background-color: white;
+    width:0px;
+    height:0px;
+  }
+  100% {
+    background-color: purple;
+    padding: 5px;
+  }
+}
