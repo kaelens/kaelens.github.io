@@ -132,8 +132,8 @@ h2 {
   border: 1px solid currentColor;
 }
 button {
-  position: relative;
-  bottom: -700px;
+  position: absolute;
+  bottom: -400px;
 }
 .btn-9 {
   color: black;
