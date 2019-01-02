@@ -4,14 +4,12 @@
 }
 #last {
   position: absolute;
-  top: 55%;
+  top: 45%;
   left: 11%;
   background: white;
-  padding: 5px;
+  padding: 3px 7px;
   font-family: "Courier New";
   font-size: 60px;
-  padding-left: 7px;
-  padding-right: 7px;
   color: black;
 }
 
@@ -28,15 +26,13 @@ a {
 }
 #first {
   position: absolute;
-  top: 39%;
+  top: 35%;
   left: 7%;
   background: white;
   color: black;
-  padding: 5px;
   font-family: "Courier New";
   font-size: 60px;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding: 3px 7px;
 }
 
 #social {
