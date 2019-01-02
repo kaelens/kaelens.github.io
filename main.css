@@ -1,9 +1,10 @@
 
 .banner {
+  position: relative;
   opacity: 0.80;
   width: 85%;
   right: 0px;
-  top: 5px;
+  top: 10px;
   float: right;
   left: 90px;
 }
@@ -130,7 +131,7 @@ h2 {
 button {
   padding: 30px;
   margin: 30px;
-  position: relative;
+  position: absolute;
 }
 .btn-9 {
   color: black;
