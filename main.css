@@ -86,13 +86,13 @@ a {
   z-index: 10;
 }
 
-#social li {
+#social li.media {
   font-size: 30px;
   margin-bottom: 45px;
   display: block;
 }
 
-#social li a {
+#social li.media a {
   color: white;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -101,7 +101,7 @@ a {
   -o-transition: all 0.5s;
 }
 
-#social li a:hover {
+#social li.media a:hover {
   color: plum;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
