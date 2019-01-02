@@ -1,15 +1,17 @@
 .container {  
   overflow: hidden;
   position: absolute;
-  width: 85%;
+  width: 750px;
   right: 0px;
   top: 10px;
   float: right;
     }  
 .banner {
-  width: 100%;
+  width: 300%;
 }
-.container ul {  
+.container ul { 
+  padding: 0px;
+  margin: 0px;
   list-style:none;
     }  
 .container li { 
