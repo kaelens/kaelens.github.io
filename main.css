@@ -131,7 +131,7 @@ h2 {
   border: 1px solid currentColor;
 }
 button {
-  position: absolute;
+  display: inline-block;
   top: 100%;
 }
 .btn-9 {
@@ -139,6 +139,7 @@ button {
   text-align: center;
   left: 40%;
   right: 40%;
+  display: inline-block;
 }
 .btn-9:before, .btn-9:after,
 .btn-9 span:before,
