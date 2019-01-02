@@ -2,7 +2,7 @@
   text-decoration: none;
 }
 .banner {
-  position: relative;
+  position: absolute;
   opacity: 0.80;
   width: 85%;
   right: 0px;
@@ -137,7 +137,7 @@ button {
 }
 .btn-9 {
   color: black;
-  position: absolute;
+  position: static;
   text-align: center;
   left: 40%;
   right: 40%;
