@@ -1,4 +1,4 @@
-$("#slideshow > div:gt(0)").hide();
+$("#slideshow > .fade:gt(0)").hide();
 
 setInterval(function() { 
   $('#slideshow > .fade:first')
