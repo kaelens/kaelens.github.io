@@ -139,13 +139,13 @@ button {
   text-align: left;
   font-family: "Courier New";
   left: 30px;
-  margin: 80px;
+  margin-top: 80px;
+  margin-left: 80px;
   width: 40%;
   font-size: 30px;
 }
 #monarchpic {
-  position: relative;
-  float: right;
+  position: absolute;
   opacity: .8;
   width: 50%;
   height: 300px;
