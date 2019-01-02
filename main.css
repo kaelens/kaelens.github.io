@@ -1,22 +1,22 @@
 .container {  
   overflow: hidden;
   position: absolute;
-  width: 1050px;
-  height: 420px;
+  width: 100%;
+  height: 100%;
   right: 0px;
   top: 10px;
   float: right;
     }  
 .banner {
-  width: 1050px;
-  height: 420px;
+  width: 100%;
+  height: 100%;
 }
 .container ul { 
   padding: 0px;
   margin: 0px;
   list-style:none;
   width: 300%;
-  height: 500px;
+  height: 100%;
     }  
 .container li { 
   float: left; 
