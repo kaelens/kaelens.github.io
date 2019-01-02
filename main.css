@@ -1,15 +1,14 @@
 .container {  
   overflow: hidden;
   position: absolute;
-  width: 85%;
-  height: 150%;
+  width: 850px;
+  height: 400px;
   right: 0px;
   top: 10px;
   float: right;
     }  
 .banner {
-  width: 85%;
-  height: 150%;
+
 }
 .container ul { 
   padding: 0px;
