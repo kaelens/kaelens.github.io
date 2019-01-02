@@ -2,17 +2,20 @@
   overflow: hidden;
   position: absolute;
   width: 750px;
+  height: 500px;
   right: 0px;
   top: 10px;
   float: right;
     }  
 .banner {
-  width: 300%;
+  
 }
 .container ul { 
   padding: 0px;
   margin: 0px;
   list-style:none;
+  width: 300%;
+  height: 500px;
     }  
 .container li { 
   float: left; 
