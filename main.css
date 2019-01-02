@@ -132,9 +132,7 @@ h2 {
   border: 1px solid currentColor;
 }
 button {
-  padding: 30px;
   margin: 30px;
-  position: absolute;
 }
 .btn-9 {
   color: black;
@@ -164,7 +162,6 @@ button {
 #monarch {
   position: absolute;
   margin: 100px 80px;
-  border: 3px solid grey;
   padding: 0px;
   height: 300px;
   padding-bottom: 90px;
@@ -184,7 +181,6 @@ button {
   font-size: 30px;
 }
 #monarchpic {
-  position: absolute;
   opacity: .8;
   width: 50%;
   height: 300px;
