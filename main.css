@@ -6,10 +6,12 @@
   right: 0px;
   top: 10px;
   float: right;
+  max-width:100%;
     }  
 .banner {
   max-width:100%;
   height: auto;
+  width: 100%;
 }
 .container ul { 
   padding: 0px;
