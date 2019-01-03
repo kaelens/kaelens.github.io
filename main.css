@@ -13,7 +13,7 @@
 }
 
 #project {
-  margin-top: 400px;
+  margin-top: 430px;
 }
 
 /*
@@ -61,8 +61,8 @@
 a {
   right: 0px;
   font-family: FontAwesome;
-  margin-bottom: 60px;
-  font-size: 45px;
+  margin-bottom: 30px;
+  font-size: 30px;
   color: white;
   
 }
@@ -83,7 +83,7 @@ a {
 #social {
   position: absolute;
   right: 0px;
-  top: 40%;
+  top: 35%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 10;
@@ -91,7 +91,7 @@ a {
 
 #social li.media {
   font-size: 30px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
   display: block;
 }
 
