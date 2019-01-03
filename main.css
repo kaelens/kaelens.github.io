@@ -132,9 +132,7 @@ h3 {
   font-weight: light;
   text-decoration: none;
   line-height: 80px;
-  color: black;
   font-size: 30px;
-  text-align: center;
   font-family: "Courier New";
 }
 
@@ -147,7 +145,7 @@ h3 {
   text-transform: uppercase;
 }
 
-.monarch {
+h3.monarch {
   $btn-color: purple;
   $btn-color-dark: shade($btn-color, 40%);
   color: tint($btn-color);
