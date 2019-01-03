@@ -132,8 +132,7 @@ $btn-color: purple;
 
 h3 {
   z-index: 6;
-  margin-left: 150px;
-  margin-top: 200px;
+  margin: 200px 150px;
   font-weight: light;
   text-decoration: none;
   line-height: $btn-height;
