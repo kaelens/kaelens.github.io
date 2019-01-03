@@ -113,8 +113,7 @@ a {
   50% { border-color: plum }
 }
 
-$btn-width: 500px !default;
-$btn-height: 80px !default;
+
   *,
   *:before,
   *:after {
@@ -130,10 +129,9 @@ $btn-height: 80px !default;
 
 h3 {
   z-index: 6;
-  margin: 200px 150px;
   font-weight: light;
   text-decoration: none;
-  line-height: $btn-height;
+  line-height: 80px;
   color: black;
   font-size: 30px;
   text-align: center;
@@ -144,8 +142,8 @@ h3 {
 [class^="monarch"] {
   position: relative;
   overflow: hidden;
-  @include size(100%, $btn-height);
-  max-width: $btn-width;
+  @include size(100%, 80px);
+  max-width: 500px;
   text-transform: uppercase;
 }
 
