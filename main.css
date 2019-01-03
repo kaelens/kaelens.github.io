@@ -172,3 +172,20 @@ h3 {
     }
   }
 }
+#monarchweb {
+  float: right;
+  opacity: .8;
+  width: 50%;
+  height: auto;
+}
+#monarchweb:hover {
+  -webkit-animation: clear 2s ease-in-out forward
+  }
+@-webkit-keyframes clear {
+  from {
+    opacity: .8
+  }
+  to {
+    opacity: 1
+  }
+}
