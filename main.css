@@ -113,20 +113,66 @@ body {
   50% { border-color: plum }
 }
 
-#monarch {
-  position: absolute;
-  margin: 100px 80px;
-  padding: 0px;
-  height: 300px;
-  padding-bottom: 90px;
+}
+$btn-width: 500px !default;
+$btn-height: 80px !default;
+$btn-color: purple;
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+  }
+*:before,
+*:after {
+  z-index: -1;
 }
 
-#monarchpic {
-  opacity: .8;
-  width: 50%;
-  height: 300px;
+
+
+h3 {
+  font-weight: light;
+  text-decoration: none;
+  line-height: $btn-height;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Courier New";
 }
 
+.centerer {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem
+}
 
+[class^="monarch"] {
+  position: relative;
+  overflow: hidden;
+  @include size(100%, $btn-height);
+  max-width: $btn-width;
 
+  text-transform: uppercase;
+}
 
+.monarch {
+  $btn-color: purple;
+  $btn-color-dark: shade($btn-color, 40%);
+  color: tint($btn-color);
+
+  &:before {
+    content: '';
+    @include absolute(0,0,0,0);
+    background-color: $btn-color-dark;
+    transform: translateX(-100%);
+  }
+
+  &:hover {
+    color: white;
+
+    &:before {
+      transform: translateX(0);
+    }
+  }
+}
