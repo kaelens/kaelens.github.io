@@ -113,7 +113,7 @@ a {
   50% { border-color: plum }
 }
 
-
+/*
   *,
   *:before,
   *:after {
@@ -136,7 +136,7 @@ h3 {
   font-family: "Courier New";
 }
 
-/*
+
 [class^="monarch"] {
   position: relative;
   overflow: hidden;
