@@ -136,7 +136,7 @@ h3 {
   font-family: "Courier New";
 }
 
-
+/*
 [class^="monarch"] {
   position: relative;
   overflow: hidden;
@@ -165,6 +165,9 @@ h3.monarch {
     }
   }
 }
+
+*/
+
 /* #monarchweb {
   float: right;
   opacity: .8;
