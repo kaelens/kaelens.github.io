@@ -1,7 +1,7 @@
 #picture {
   position: relative;
   overflow: hidden;
-  width: 600px;
+  width: 800px;
   top: 10px;
   opacity: 0.8;
 }
@@ -11,7 +11,7 @@ p.first {
   font-size: 45px;
   background-color: plum;
   position: absolute;
-  left: 45%;
+  left: 30%;
   top: 5%;
   width: 175px;
 }
@@ -22,7 +22,7 @@ p.last{
   background-color: plum;
   position: absolute;
   left: 50%;
-  top: 10%;
+  top: 15%;
   width: 300px;
 }
 
@@ -48,8 +48,8 @@ a {
 
 #social {
   position: absolute;
-  left: 0px;
-  top: 15%;
+  left: 10px;
+  top: 25%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 10;
