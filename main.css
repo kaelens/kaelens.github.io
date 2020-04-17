@@ -1,8 +1,7 @@
 #picture {
   position: relative;
   overflow: hidden;
-  width: 500px;
-  height: 200px;
+  width: 85%;
   top: 10px;
   opacity: 0.8;
 }
@@ -12,7 +11,7 @@ p.first {
   font-size: 45px;
   background-color: plum;
   position: absolute;
-  left: 30%;
+  left: 45%;
   top: 5%;
   width: 175px;
 }
@@ -22,7 +21,7 @@ p.last{
   font-size: 45px;
   background-color: plum;
   position: absolute;
-  left: 10px;
+  left: 50%;
   top: 10%;
   width: 300px;
 }
