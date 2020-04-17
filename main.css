@@ -1,5 +1,5 @@
 #picture {
-  position: absolute;
+  position: relative;
   overflow: hidden;
   width: 500px;
   height: 200px;
@@ -10,7 +10,7 @@ p.first {
   color: white;
   font-size: 45px;
   background-color: plum;
-  position: relative;
+  position: absolute;
   left: 30%;
   top: 5%;
   width: 175px;
@@ -20,7 +20,7 @@ p.last{
   color: white;
   font-size: 45px;
   background-color: plum;
-  position: relative;
+  position: absolute;
   left: 10px;
   top: 10%;
   width: 300px;
