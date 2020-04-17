@@ -35,9 +35,9 @@ p.last{
 }
 
 a {
-  right: 0px;
+  left: 0px;
   font-family: FontAwesome;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 30px;
   color: white;
 }
