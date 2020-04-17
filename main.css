@@ -6,6 +6,34 @@
   top: 10px;
 }
 
+p.first {
+  color: white;
+  font-size: 45px;
+  background-color: plum;
+  position: absolute;
+  left: 30%;
+  top: 5%;
+  width: 175px;
+}
+
+p.last{
+  color: white;
+  font-size: 45px;
+  background-color: plum;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: 300px;
+}
+
+#picture {
+  position: absolute;
+  overflow: hidden;
+  width: 85%;
+  height: 400px;
+  top: 10px;
+}
+
 a {
   right: 0px;
   font-family: FontAwesome;
@@ -51,38 +79,26 @@ a {
   -o-transition: all 0.5s;
 }
 
+#project {
+  border-top: 2px solid black;
+  top: 300px;
+  position: relative;
+}
+
 .body {
   padding-top: 5em;
   display: flex;
   justify-content: center;
 }
 
-#project {
-}
-
-/*.typewriter h1 {
+.typewriter h1 {
+  text-align: center;
+  margin: 0 auto;
   font-size: 45px;
   color: black;
-  font-family: "Courier New";
-  overflow: hidden;
-  border-right: .1em solid plum;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .1em;
-  animation: 
-    typing 2s steps(18, end),
-    blink .5s step-end infinite;
+  font-family: "Lucida Grande";
+  letter-spacing: .05em;
 }
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink {
-  from, to { border-color: transparent }
-  50% { border-color: plum }
-}*/
 
 p {
   text-align: center;
