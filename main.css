@@ -1,8 +1,8 @@
 #picture {
   position: absolute;
   overflow: hidden;
-  width: 85%;
-  height: 400px;
+  width: 500px;
+  height: 200px;
   top: 10px;
 }
 
