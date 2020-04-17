@@ -1,30 +1,9 @@
-#slideshow > .fade { 
-  position: absolute;  
-  overflow: hidden;
+#picture {
   position: absolute;
+  overflow: hidden;
   width: 85%;
   height: 400px;
-  right: 0px;
   top: 10px;
-    }  
-.banner {
-  max-width:100%;
-  width: 100%;
-}
-
-#project {
-  margin-top: 375px;
-}
-
-#last {
-  position: absolute;
-  top: 45%;
-  left: 10%;
-  background: plum;
-  padding: 3px 7px;
-  font-family: "Courier New";
-  font-size: 45px;
-  color: white;
 }
 
 a {
@@ -33,20 +12,10 @@ a {
   margin-bottom: 30px;
   font-size: 30px;
   color: white;
-  
 }
+
 .fa-twitter {
   right: 3px;
-}
-#first {
-  position: absolute;
-  top: 35%;
-  left: 7%;
-  background: plum;
-  color: white;
-  font-family: "Courier New";
-  font-size: 45px;
-  padding: 3px 7px;
 }
 
 #social {
@@ -82,14 +51,16 @@ a {
   -o-transition: all 0.5s;
 }
 
-
 .body {
   padding-top: 5em;
   display: flex;
   justify-content: center;
 }
 
-.typewriter h1 {
+#project {
+}
+
+/*.typewriter h1 {
   font-size: 45px;
   color: black;
   font-family: "Courier New";
@@ -111,78 +82,10 @@ a {
 @keyframes blink {
   from, to { border-color: transparent }
   50% { border-color: plum }
+}*/
+
+p {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Lucida Grande";
 }
-
-/*
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-    transition: 0.5s ease-in-out;
-  }
-*:before,
-*:after {
-  z-index: -1;
-}
-
-
-
-h3 {
-  z-index: 6;
-  font-weight: light;
-  text-decoration: none;
-  line-height: 80px;
-  font-size: 30px;
-  font-family: "Courier New";
-}
-
-
-[class^="monarch"] {
-  position: relative;
-  overflow: hidden;
-  @include size(100%, 80px);
-  max-width: 500px;
-  text-transform: uppercase;
-}
-
-h3.monarch {
-  $btn-color: purple;
-  $btn-color-dark: shade($btn-color, 40%);
-  color: tint($btn-color);
-
-  &:before {
-    content: '';
-    @include absolute(0,0,0,0);
-    background-color: $btn-color-dark;
-    transform: translateX(-100%);
-  }
-
-  &:hover {
-    color: white;
-
-    &:before {
-      transform: translateX(0);
-    }
-  }
-}
-
-*/
-
-/* #monarchweb {
-  float: right;
-  opacity: .8;
-  width: 50%;
-  height: auto;
-}
-#monarchweb:hover {
-  -webkit-animation: clear 2s ease-in-out forward
-  }
-@-webkit-keyframes clear {
-  from {
-    opacity: .8
-  }
-  to {
-    opacity: 1
-  }
-}
-*/
