@@ -1,56 +1,78 @@
-#picture {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-  top: 10px;
-  opacity: 0.8;
+.name {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    z-index: 1;
+    width: 100%;
 }
 
-p.first {
+.leftside, .rightside {
+    height: 50vh;
+    width: 100%;
+    z-index: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .leftside, .rightside {
+        height: 75vh;
+    }
+}
+
+.leftside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.leftside img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.rightside {
+    opacity: 0.5;
+    background-color: plum;
+}
+
+.text {
+    
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.text p {
+    color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+p.name {
   color: white;
-  font-size: 45px;
-  background-color: plum;
-  position: absolute;
+  font-size: 40px;
+  position: center;
   left: 40%;
   top: 5%;
-  width: 175px;
-}
-
-p.last{
-  color: white;
-  font-size: 45px;
-  background-color: plum;
-  position: absolute;
-  left: 50%;
-  top: 15%;
-  width: 300px;
-}
-
-#picture {
-  position: absolute;
-  overflow: hidden;
-  width: 85%;
-  height: 400px;
-  top: 10px;
+  width: 375px;
 }
 
 a {
-  left: 0px;
   font-family: FontAwesome;
-  margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
-}
-
-.fa-twitter {
-  left: 3px;
 }
 
 #social {
   position: absolute;
   left: 10px;
-  top: 25%;
+  top: 35%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 10;
@@ -58,7 +80,7 @@ a {
 
 #social li.media {
   font-size: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   display: block;
 }
 
@@ -81,24 +103,16 @@ a {
 }
 
 #project {
-  top: 500px;
+    margin-top: 5em;
   position: relative;
+  font-size: 20px;
 }
 
 .body {
-  padding-top: 5em;
   display: flex;
   justify-content: center;
 }
 
-.typewriter h1 {
-  text-align: center;
-  margin: 0 auto;
-  font-size: 45px;
-  color: black;
-  font-family: "Lucida Grande";
-  letter-spacing: .05em;
-}
 
 p {
   text-align: center;
