@@ -1,0 +1,58 @@
+canvas {
+  display: block;
+}
+
+section {
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  bottom: 5%;
+}
+
+.info {
+  margin-left: 5em;
+  position: absolute;
+  margin-bottom: 0em;
+  z-index: 1000;
+  text-align: left;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  color: black;
+  font-size: 3em;
+}
+
+h1,
+ul {
+  margin: 5px 0;
+}
+
+button {
+  cursor: pointer;
+  color: black;
+  transition: all 0.2s;
+}
+
+button:hover {
+  color: purple;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  font-size: 2em;
+}
+
+a {
+  color: black;
+  padding: 0 5px;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: purple;
+}
