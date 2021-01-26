@@ -3,16 +3,6 @@ canvas {
 }
 
 section {
-<<<<<<< Updated upstream
-position: absolute;
-text-align: left;
-width: 100%;
-bottom: 5%;
-}
-
-.bottom {
-  margin-left: 5em;
-=======
   position: absolute;
   text-align: left;
   width: 0;
@@ -20,7 +10,6 @@ bottom: 5%;
 }
 
 .info {
->>>>>>> Stashed changes
   position: absolute;
   margin-bottom: 0em;
   z-index: 1000;
