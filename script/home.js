@@ -22,7 +22,7 @@ function init() {
   camera = new THREE.PerspectiveCamera(
     75,
     window.innerWidth / window.innerHeight,
-    1,
+    0.1,
     1000
   );
   camera.position.z = 400;
@@ -34,7 +34,11 @@ function init() {
 
   var geometry = new THREE.IcosahedronGeometry(15, 1);
 
+<<<<<<< Updated upstream
   var mat = new THREE.MeshPhongMaterial({
+=======
+  var mat2 = new THREE.MeshPhongMaterial({
+>>>>>>> Stashed changes
     color: 0x008c53,
     wireframe: true,
     side: THREE.DoubleSide

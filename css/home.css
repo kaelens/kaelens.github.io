@@ -3,6 +3,7 @@ canvas {
 }
 
 section {
+<<<<<<< Updated upstream
 position: absolute;
 text-align: left;
 width: 100%;
@@ -11,10 +12,20 @@ bottom: 5%;
 
 .bottom {
   margin-left: 5em;
+=======
+  position: absolute;
+  text-align: left;
+  width: 0;
+  bottom: 20%;
+}
+
+.info {
+>>>>>>> Stashed changes
   position: absolute;
   margin-bottom: 0em;
   z-index: 1000;
   text-align: left;
+  width: 520px;
 }
 
 h1 {
@@ -28,18 +39,10 @@ ul {
   margin: 5px 0;
 }
 
-button {
-  cursor: pointer;
-  color: black;
-  transition: all 0.2s;
-}
-
-button:hover {
-  color: purple;
-}
-
-ul {
+ul.social {
   list-style: none;
+  padding-left: 0;
+  float: left;
 }
 
 li {
@@ -51,6 +54,7 @@ a {
   color: black;
   padding: 0 5px;
   transition: all 0.2s;
+
 }
 
 a:hover {
