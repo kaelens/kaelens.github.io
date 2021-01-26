@@ -1,18 +1,10 @@
 nav {
-<<<<<<< Updated upstream
-background-color: white;
-width: 100%;
-font-size: 15px;
-position: absolute;
-color: black;
-=======
     background-color: white;
     width: 100%;
     font-size: 12px;
     position: absolute;
     color: purple;
     margin-top: 20px;
->>>>>>> Stashed changes
 }
 
 ul {
@@ -28,14 +20,6 @@ li {
 
 a {
     padding: 10px 0;
-<<<<<<< Updated upstream
-    font-family: "Dosis", sans-serif;
-}
-
-a::hover {
-    color: green;
-=======
     text-decoration: none;
     font-family: "Dosis", sans-serif;
->>>>>>> Stashed changes
 }
