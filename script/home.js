@@ -1,9 +1,5 @@
 var renderer, scene, camera, composer, circle, skelet, particle;
 
-// const singleColor = 0x008c53;
-// const bgColor = 0xffffff;
-// const geom = new THREE.Geometry();
-
 window.onload = function () {
   init();
   animate();
@@ -32,25 +28,19 @@ function init() {
 
   scene.add(skelet);
 
-  var geometry = new THREE.IcosahedronGeometry(15, 1);
+  var geom = new THREE.IcosahedronGeometry(15, 1);
 
-<<<<<<< Updated upstream
   var mat = new THREE.MeshPhongMaterial({
-=======
-  var mat2 = new THREE.MeshPhongMaterial({
->>>>>>> Stashed changes
     color: 0x008c53,
     wireframe: true,
-    side: THREE.DoubleSide
-    // opacity: 0.05,
-    // transparent: true
+    side: THREE.DoubleSide,
   });
 
-  var planet2 = new THREE.Mesh(geometry, mat);
-  planet2.scale.x = planet2.scale.y = planet2.scale.z = 10;
-  skelet.add(planet2);
+  var planet = new THREE.Mesh(geom, mat);
+  planet.scale.x = planet.scale.y = planet.scale.z = 10;
+  skelet.add(planet);
 
-  var light = new THREE.AmbientLight(0xffffff, 1, 500);
+  var light = new THREE.AmbientLight(0xffffff);
   scene.add(light);
 
   window.addEventListener("resize", onWindowResize, false);
@@ -64,8 +54,9 @@ function onWindowResize() {
 
 function animate() {
   requestAnimationFrame(animate);
+
   skelet.rotation.x -= 0.001;
-  skelet.rotation.y += 0.005;
+  skelet.rotation.y += 0.002;
   renderer.clear();
 
   renderer.render(scene, camera);
