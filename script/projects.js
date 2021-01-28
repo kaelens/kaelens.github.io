@@ -1,12 +1,12 @@
+
 $(document).ready(function() {
-    $('.project').on({
-      mouseenter: function(){
-        $(this).removeClass('faded');
-        $('.project').not(this).addClass('faded');
-      },
-      mouseleave: function(){
-        $('.project').removeClass('faded');
-      }
-    });
-  })
-  
+  $('.post').on({
+    mouseenter: function(){
+      $(this).removeClass('faded');
+      $('.post').not(this).addClass('faded');
+    },
+    mouseleave: function(){
+      $('.post').removeClass('faded');
+    }
+  });
+})
