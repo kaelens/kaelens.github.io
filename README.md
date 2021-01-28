@@ -1,7 +1,8 @@
 # kaelens.github.io
-This is my home page
+Hello! This is my home page.
 <br>
-I am not too sure what is going on, but I am mostly using it as a sandbox to learn more about coding
+I am not too sure what is going on, but I am mostly using it as a sandbox to learn more about coding.
+This website can be accessed at https://kaelensayth.me/
 <br>
 <br>
-Continuously editing because I cannot make up my mind
+Thanks! :-)
