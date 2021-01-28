@@ -35,3 +35,21 @@ p {
   color: black;
   font-size: 20px;
 }
+
+@media (max-width: 850px) {
+  section {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .intro {
+    order: 5;
+    width: 100%;
+  }
+  .pic {
+    order: 10;
+    width: 100%;
+  }
+  img {
+    max-width:100%;
+  }
+}
