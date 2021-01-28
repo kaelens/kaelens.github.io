@@ -69,27 +69,36 @@ ul.post-list {
   display: flex;
   flex-wrap: wrap;
 }
+
 .post-list li {
   flex: calc(50% - 20px);
   padding: 0 10px;
   margin: 50px 0;
   margin-bottom: 0;
 }
+
 h3 {
   font-size: 30px;
 }
+
+p {
+  font-size: 20px;
+}
+
 .post-list li .post-image {
   position: relative;
   width: 100%;
   height: 260px;
   overflow: hidden;
 }
+
 .post-list li .post-image img {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 @media (max-width: 768px) {
   .post-list li {
     flex: 100%;
