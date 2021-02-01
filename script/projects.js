@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
   $('.post').on({
     mouseenter: function(){
