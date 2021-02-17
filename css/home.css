@@ -3,6 +3,11 @@ html, body {
   overflow-x: hidden;
 }
 
+body {
+  justify-content: center;
+  align-items: center;
+}
+
 section {
   position: absolute;
   text-align: left;
@@ -49,4 +54,10 @@ a.social {
 
 a:hover.social {
   color: #008c53;
+}
+
+@media (max-width: 850px) {
+  .info {
+    width: 200px;
+  }
 }

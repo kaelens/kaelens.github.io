@@ -49,6 +49,7 @@ p {
   .intro {
     order: 5;
     width: 100%;
+    margin-left: 0;
   }
   .pic {
     order: 10;
