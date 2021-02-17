@@ -8,7 +8,7 @@ nav {
 
 ul.nav {
   list-style: none;
-  margin: 10px 50px;
+  margin: 10px 0;
   text-align: right;
 }
 
@@ -30,9 +30,15 @@ a:hover.link {
   color: black;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 768px) {
   ul.nav {
     padding-inline-start: 0;
     text-align: center;
+  }
+  li.navi {
+    padding: 0 10px;
+  }
+  a.link {
+    padding: 5px 0;
   }
 }
