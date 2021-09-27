@@ -1,11 +1,13 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  cursor: url(../assets/pointer.svg), auto;
 }
 
 body {
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
 }
 
 section {
@@ -52,8 +54,11 @@ a.social {
 
 }
 
+
+
 a:hover.social {
-  color: #008c53;
+  cursor: url(../assets/pointer.svg), auto;
+  color: #7B61FF;
 }
 
 @media (max-width: 768px) {
