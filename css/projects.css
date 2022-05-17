@@ -2,7 +2,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
   cursor: url(../assets/pointer.svg), auto;
-  background-color: #e5e5e5;
+  background-color: #F8F8F8;
 }
 
 body {
@@ -33,10 +33,20 @@ a:focus.post-link {
 } */
 
 .card:hover .post {
-  outline: 3px solid #45B5F4;
+  outline: 4px solid #45B5F4;
+  transition: all ease-in 0.1s;
+  -webkit-transition: all ease-in 0.1s;
+  -moz-transition: all ease-in 0.1s;
+  -ms-transition: all ease-in 0.1s;
+  -o-transition: all ease-in 0.1s;
 }
 
 .card:hover h3 {
+  transition: all ease-in 0.1s;
+  -webkit-transition: all ease-in 0.1s;
+  -moz-transition: all ease-in 0.1s;
+  -ms-transition: all ease-in 0.1s;
+  -o-transition: all ease-in 0.1s;
   color: #45B5F4;
 }
 

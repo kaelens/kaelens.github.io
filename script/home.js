@@ -1,4 +1,4 @@
-const modelColor = 0x008c53;
+const modelColor = 0x7B61FF;
 const bgColor = 0xffffff;
 const modelGeometry = new THREE.Geometry();
 
@@ -16,6 +16,8 @@ const material = new THREE.MeshPhongMaterial({
   wireframe: true,
   side: THREE.DoubleSide,
 });
+
+
 camera.position.z = 400;
 
 const light = new THREE.AmbientLight(0xffffff);
