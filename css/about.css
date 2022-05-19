@@ -85,9 +85,16 @@ p {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   section {
-    margin-top: 500px;
+    margin-top: 200px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  section {
+    margin-top: 850px;
   }
 
 }
