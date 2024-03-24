@@ -1,140 +1,107 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
-  cursor: url(../assets/pointer.svg), auto;
-  background-color: #F8F8F8;
 }
 
 body {
-  display:flow-root;
+  display: flow-root;
+  background-color: #fae9e8;
 }
 
 section {
   padding-top: 20px;
 }
 
-.post-link {
-  font-family: "Dosis", sans-serif;
-  color: #7B61FF;
-  /* -o-transition: 0.15s;
-  -ms-transition: 0.15s;
-  -moz-transition: 0.15s;
-  -webkit-transition: 0.15s;
-  transition: 0.15s; */
-  text-decoration: none;
-  align-items: center;
-}
-
-/* a:hover.post-link,
-a:focus.post-link {
-  background-color: transparent !important;
-  text-decoration: none;
-  cursor: url(../assets/pointer.svg), auto;
-} */
-
-.card:hover .post {
-  outline: 4px solid #45B5F4;
-  transition: all ease-in 0.1s;
-  -webkit-transition: all ease-in 0.1s;
-  -moz-transition: all ease-in 0.1s;
-  -ms-transition: all ease-in 0.1s;
-  -o-transition: all ease-in 0.1s;
-}
-
-.card:hover h3 {
-  transition: all ease-in 0.1s;
-  -webkit-transition: all ease-in 0.1s;
-  -moz-transition: all ease-in 0.1s;
-  -ms-transition: all ease-in 0.1s;
-  -o-transition: all ease-in 0.1s;
-  color: #45B5F4;
-}
-
-@keyframes fadein {
-  to {
-    border: 3px solid #45B5F4;
-  }
-}
-
-/* a:focus.post-link {
-  color: #7B61FF;
-}
-
-@keyframes fadeout {
-  from {
-    opacity: 0.3;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0.3;
-  }
-} */
-
 ul.post-list {
   list-style: none;
 }
 
-.post {
-  border: 5px solid white;
-  background-color: white;
-}
-
-
-/* .post.faded {
-  animation: fadein 0.5s forwards;
-} */
-
 .post-list {
   margin-top: 45px;
-  margin-right: 40px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .post-list li {
-  flex: calc(50% - 20px);
+  width: calc(50% - 15px);
+  box-sizing: border-box;
   padding: 0 10px;
   margin: 50px 0;
   margin-bottom: 0;
 }
 
-.post-info {
-  margin: 0 auto;
-  width: 90%;
+.card {
+  background-color: #fcf6f5;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all ease-in 0.1s;
+  -webkit-transition: all ease-in 0.3s;
+  -moz-transition: all ease-in 0.3s;
+  -ms-transition: all ease-in 0.3s;
+  -o-transition: all ease-in 0.3s;
 }
 
-h3 {
+.card:hover {
+  transform: translateY(-5px);
+  transition: all ease-in 0.1s;
+  -webkit-transition: all ease-in 0.3s;
+  -moz-transition: all ease-in 0.3s;
+  -ms-transition: all ease-in 0.3s;
+  -o-transition: all ease-in 0.3s;
+}
+
+.card h3 {
   font-family: "Dosis", sans-serif;
-  font-size: 18px;
-  color: #9b9b9b;
-  margin-bottom: 3px;
+  color: #C81C34;
+  font-size: 1.5em;
+  margin: 20px;
 }
 
-p {
-  font-size: 20px;
+.card:hover h3 {
+  color: black;
+  transition: all ease-in 0.1s;
+  -webkit-transition: all ease-in 0.3s;
+  -moz-transition: all ease-in 0.3s;
+  -ms-transition: all ease-in 0.3s;
+  -o-transition: all ease-in 0.3s;
 }
 
-.post-list li .post-image {
+.post-image {
   position: relative;
   width: 95%;
   height: 260px;
-  margin: 15px auto;
+  margin: 10px auto;
   overflow: hidden;
 }
 
-.post-list li .post-image img {
+.post-image img {
   position: absolute;
+  border-radius: 10px;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.post-link {
+  position: relative;
+  text-decoration: none;
+  align-items: center;
+}
+
+.post-image, .post-info{
+  color: black;
+}
+
+.post-info {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.post-info p {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
 }
 
 @media (max-width: 768px) {

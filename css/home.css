@@ -1,55 +1,34 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
-  cursor: url(../assets/pointer.svg), auto;
 }
 
 body {
-  background-color: #F1EEFF;
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
   margin: 0;
+  height: 100vh;
+  background-color: #fae9e8;
 }
 
 .img-wrapper {
   width: 100vw;
   height: 100vh;
 }
-
 .img-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 section {
   position: absolute;
-  text-align: left;
-  width: 0;
-  bottom: 20%;
-  margin-left: 25px;
-
-}
-
-.info {
-  position: absolute;
-  margin-bottom: 0em;
-  z-index: 1000;
-  text-align: left;
-  width: 600px;
-}
-
-h1 {
-  font-family: "Dosis", sans-serif;
-  color: black;
-  font-size: 4em;
-}
-
-h1 span {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  -webkit-text-fill-color: #FFFFFF;
+  right: 0;
+  bottom: 0;
+  float: right;
+  margin-right: 10px;
 }
 
 h1,
@@ -57,10 +36,21 @@ ul {
   margin: 5px 0;
 }
 
+h1 {
+  font-family: "Dosis", sans-serif;
+  color: #C81C34;
+  font-size: 3.5em;
+}
+h1 span {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: transparent;
+}
+
 ul.social {
   list-style: none;
   padding-left: 0;
-  float: left;
+  float: right;
 }
 
 li.social {
@@ -75,12 +65,24 @@ a.social {
 }
 
 a:hover.social {
-  cursor: url(../assets/pointer.svg), auto;
-  color: #7B61FF;
+  color: #C81C34;
 }
 
-@media (max-width: 768px) {
-  .info {
-    width: 200px;
+.rotate {
+  position: fixed;
+  transform: translateX(-50%);
+}
+
+#Ouroboros {
+  width: 800px;
+  animation: rotateAnimation 7s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
   }
 }
