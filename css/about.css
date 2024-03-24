@@ -72,3 +72,26 @@ body {
   background-size: 50px;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+  .header {
+    height: 250px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .header p {
+    font-size: 5em;
+  }
+  .about {
+    height: 100vh;
+    align-content: flex-start;
+    flex-direction: row;
+  }
+  .text {
+    height: 300px;
+    margin: 0;
+    width: 100vw;
+    text-align: center;
+    align-items: flex-end;
+  }
+}
